@@ -18,6 +18,47 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->       
   
+<style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border: 2px solid transparent;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 2px solid transparent;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        @media screen and (max-width: 600px) {
+            table {
+                border: none;
+            }
+            td {
+                display: block;
+                text-align: right;
+            }
+            td:before {
+                content: attr(data-label);
+                float: left;
+                font-weight: bold;
+            }
+        }
+    </style>
+
+
 </head><!--/head-->
 
 <body id="home" class="homepage">
@@ -40,7 +81,7 @@
                         <li class="scroll active"><a href="#home">Home </a></li>
                         <li class="scroll"><a href="#services">Service </a></li>
                         <li class="scroll"><a href="#blog">  Blog </a></li>
-                        <li class="scroll"><a href="#get-in-touch">Contact</a></li>
+                      <!--/.container  <li class="scroll"><a href="#get-in-touch">Contact</a></li>-->
                         <li class="scroll"><a href="index2.html">Turkce</a></li> 
 
                     </ul>
@@ -58,11 +99,17 @@
                             <div class="col-sm-12 text-center">
                                 <div class="carousel-content">
                                     <h2>Right PRO IP & Legal Ltd.</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
-
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-<br>her turlu marka patent her sey bizde var! <br> Marka bizim isimiz <br> patent hele tam bizim isimiz</p>
-                                    <a class="btn btn-primary btn-lg" href="#get-in-touch">Contact Now</a>
+                                    <p> Welcome to our intellectual property law firm based in Istanbul, Turkey and intellectual property
+agency based in London, UK, where we provide global legal and consultancy services in the areas of
+trademark prosecution and litigation, design prosecution and litigation, patent prosecution and
+litigation, copyright protection and litigation, and domain name dispute resolution. <p> Being
+experienced and dedicated to helping individuals and businesses protect their valuable intellectual
+property rights, mainly in Turkiye and in the UK, but through international protocols and wide
+network of local partners, all over the world. <p><p>
+At our firm, we understand the importance of protecting your intellectual property rights. Contact us
+today to learn more about how we can help you protect your valuable assets. <p>
+    <p>
+                                    <a class="btn btn-primary btn-lg" href="#services">See More</a>
                                 </div>
                             </div>
                         </div>
@@ -80,10 +127,13 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Our Services</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <p class="text-center wow fadeInDown">With a 15+ experience in Intellectual Property Law, we assist our national and international clients on
+protecting their intangible assets such as their trademarks, patents, designs, copyrights, domain
+names worldwide with a specialized and experienced team. The global services RightPro IP &amp; Legal
+Consultancy provides are as follows </p>
             </div>
 
-            <div class="row">
+          <div class="row">
                 <div class="features">
                     <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
                         <div class="media service-box">
@@ -91,12 +141,33 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 <img src="images/icon1.png" alt="img">
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Trademark</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur 
-ing elit, sed do eiusmod tempor incididunt ut
-labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipis
-ing elit, sed do eiusmod .
-More about Trademark</p>
+                                <h4 class="media-heading">Consultancy</h4>
+                                <p> Trademark, patent, industrial design and copyright (will be referred as “IP Rights” hereafter)
+applications and registrations
+<li> Prosecution and maintenance of IP Rights </li>
+<li> Principal and supplemental registrations, including international registrations in any country
+in the world, </li>
+<li> Counselling, including IP Rights use and portfolio management of our clients </li>
+<li> Maintenance of IP Rights </li>
+<li> Transactions, such as licensing, assignment, and franchising- including drafting and reviewing
+these agreements with regard to IP Rights </li>
+<li> Due diligence arising from various transactions involving IP Rights </li>
+<li> IP Rights infringement analysis </li>
+<li> Civil litigation including IP Rights infringement, counterfeiting, non-use cancellation and
+cancellation lawsuits grounding on similarity, dilution, taking unfair advantage in Turkiye and
+with our reliable local partners, all around the world, </li>
+<li> Turkish Patent and Trademark Office (TURKPATENT)’s and UK Intellectual Property Office
+(UKIPO)’s prosecution stages, including oppositions, appeals and recordals of changes. These
+services are also provided worldwide, with co-ordination of reliable local attorneys in other
+countries. </li>
+<li> Patent validations and applications </li>
+
+<li> Domain Name Dispute Resolutions before WIPO, NOMINET, NAF, Czech Arbitration Court, as
+well as court of jurisdictions at the litigation stage </li>
+<li> Turkish Law Consultancy in re the other areas of law: corporate law, contracts, real estate &amp;
+property, investments, data protection, IT Law and so on. </li>
+
+                                </p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -108,11 +179,27 @@ More about Trademark</p>
                             </div>
                             <div class="media-body">
                                 <h4 class="media-heading">Patent</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur 
-ing elit, sed do eiusmod tempor incididunt ut
-labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipis
-ing elit, sed do eiusmod .
-Patent detaylari cok</p>
+                                <p> A patent is an exclusive right to a product or a process that generally provides a new way of doing
+something, or offers a new technical solution to a problem. For your application to be successful,
+your invention must be new, useful and inventive or innovative. When granted, a patent will give
+exclusive commercial rights to your invention. Before the application for registration, it should be
+searched that whether your invention has patentability criteria.
+By courtesy of our colleagues in other IP firms, we can provide patent services to our national clients
+in all over the world. We provide patent services that include;
+<li> Patent search services before filing to evaluate patentability of your invention, </li>
+<li>  Drafting and filing patent applications (including filing patent application in other countries </li>
+or regions, specifically PCT applications, European patent applications and Eurasian patent </li>
+applications, EP Validations and conventional patent applications in the counties of interest), </li>
+<li> Active prosecution and close monitoring of pending patent applications that includes </li>
+reporting and preparing responses to official action, </li>
+<li> Handling of pre-grant and post-grant opposition, </li>
+<li> Patent infringement cases, </li>
+<li> Appeals and strategizing amendment of claims for maximizing impact, </li>
+<li> Patent Litigation Support </li>
+<li> Freedom to Operate </li>
+<li> Patent Monitoring </li>
+<li> Tracking the application from filing to grant. </li>
+                                </p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -123,17 +210,33 @@ Patent detaylari cok</p>
                                 <img src="images/icon3.png" alt="img">
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur 
-ing elit, sed do eiusmod tempor incididunt ut
-labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipis
-ing elit, sed do eiusmod .
+                                <h4 class="media-heading">Trademark</h4>
+                                <p>A trademark is a sign capable of distinguishing the goods or services of one enterprise from those of
+other enterprises. Trademarks are protected by intellectual property rights. </p>
+We provide a wide range of trademark prosecution transactions (applications, oppositions,
+assignments, renewals, litigations, appeals.. etc) before TURKPATENT, UKIPO as well as international
+trademark applications through WIPO(Madrid Protocol) and/or with our reliable local partners in the
+related jurisdictions.</p></p>
 
-Bunu yolladigin ornekte gordum ablos</p>
+You can reach us for these processes around the globe:</li>
+<li> Performing trademark availability searches and providing opinion on the registration of the
+same; </li>
+<li> Finding the best filing strategies, preparing, filing and prosecuting trademark applications up
+to registration stage; </li>
+<li> Reporting and responding to official actions from the respective intellectual property offices;
+<li> Conducting opposition proceedings to defend or oppose the grant of trademarks
+registrations; </li>
+<li> Initiating and defending infringement, passing off and unfair competition actions; </li>
+<li> Drafting of license, assignment agreements; </li>
+<li> Prosecuting appeals and rectification/cancellation actions before the offices and courts. </li>
+<li> Monitoring services </li>
+<li> Recordal of changes of proprietor&#39;s name, address, and legal status </li>
+<li> Recordal of mergers and assignments </li>
+<li> Recordal of licences </li>
+<li> Cancellation and invalidation actions </li> </p>
                             </div>
                         </div>
-                    </div>
-                    <!--
+                    </div><!--/.col-md-4-->
                 
                     <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
                         <div class="media service-box">
@@ -141,16 +244,19 @@ Bunu yolladigin ornekte gordum ablos</p>
                                <img src="images/icon4.png" alt="img">
                             </div>
                             <div class="media-body">
-                               <h4 class="media-heading">SEO Services</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur 
-ing elit, sed do eiusmod tempor incididunt ut
-labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipis
-ing elit, sed do eiusmod .</p>
+                               <h4 class="media-heading">Domain Names</h4>
+                                <p>   Domain names have become an integral part of IP rights and they should not be disregarded when
+developing branding strategy. We assist our clients for protection of their domain names from
+registration proceedings to management of domain name portfolios and including their
+representation before the administrative and judicial authorities in domain name disputes. We
+provide services to our clients for following;
+<li> Internet domain name administration (registration and administration) </li>
+<li> Internet domain litigation and ADR (UDRP, Country code Top Level Domains, .EU Domain
+name Disputes before authorized domain name dispute resolution provides such as WIPO,
+NAF, Nominet, Czech Arbitration Court.. etc)</li> </p>
                             </div>
                         </div>
-                    </div>
-
-
+                    </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
                         <div class="media service-box">
@@ -158,26 +264,63 @@ ing elit, sed do eiusmod .</p>
                                <img src="images/icon5.png" alt="img">
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Other Consultancy</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur 
-ing elit, sed do eiusmod tempor incididunt ut
-labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipis
-ing elit, sed do eiusmod .</p>
+                                <h4 class="media-heading">Copyright</h4>
+                                <p>Copyright is a type of intellectual property that protects original works of authorship as soon as an
+author fixes the work in a tangible form of expression. Exhaustive lists of works covered by copyright
+are usually not to be found in legislation.
+We provide services to our clients in scope of full protection of copyright including mainly the
+following work;
+<li> Negotiating and drafting copyright licenses and assignments </li>
+<li> Copyright infringement cases, </li>
+<li> Preliminary injunction decisions, </li>
+<li> C&amp;D letters, </li>
+<li> Copyright enforcement </li>
+<li> Takedown proceedings regarding the infringing rights. </li> </p>
                             </div>
                         </div>
-                    </div>
+                    </div><!--/.col-md-4-->
 
-                    
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <img src="images/icon6.png" alt="img">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Design</h4>
+                                <p> 
+
+A design refers to the features of shape, configuration, pattern or ornamentation which give a
+product a unique appearance, and must be new and distinctive. <p>
+Industrial design applications are national. If you plan using your design in other countries, you
+should make applications for registration in each country, within a certain time period. 
+<p> We provide a
+full range of industrial design services from searches to licensing through prosecution and
+enforcement to help our clients manage and protect their valuable design portfolio throughout the
+design life cycle, both domestically and internationally. <p> Some example works that you can do by
+reaching to us:<p>
+
+<li> Filing design applications </li>
+<li> Oppositions </li>
+<li> Renewals </li>
+<li> Recordal of changes of proprietor&#39;s name, address, and legal status </li>
+<li> Recordal of mergers and assignments </li>
+<li> Design infringement and unfair competition actions, </li>
+<li> Design invalidation actions Cancellation actions </li>
+<li> Recordal of licences </li>
+
+                                </p>
+
+
+
+
+
+                            </div>
                         </div>
-                    </div>
-                    /.col-md-4-->
+                    </div><!--/.col-md-4-->
                 </div>
             </div><!--/.row-->    
         </div><!--/.container-->
     </section><!--/#services-->
-    
- 
-       
     
     
     
@@ -185,141 +328,77 @@ ing elit, sed do eiusmod .</p>
     <section id="blog">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Latest Blogs</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h2 class="section-title text-center wow fadeInDown">About Hatice Ahu Guneyli</h2>
+                <p class="text-center wow fadeInDown">As a qualified registered lawyer before Istanbul Bar (Turkiye) and charted trademark attorney
+of TURKPATENT, Ahu has been practicing IP Law since 2007, following the completion of his
+LL.M degree in IP and IT Law from Washington University School of Law. Ahu has also been
+certified as a trademark paralegal in 2021 by UK CITMA (Chartered Institution of Trade Mark
+Attorneys), as she has been practicing before UKIPO as well, through her company, RightPro
+IP &amp; Legal Consultancy, which she has founded in 2019 in London.
+<p> <p> 
+With a passion for intellectual property and information technology, Ahu has built a
+reputation as a skilled and dedicated lawyer, committed to providing clients with the best
+possible representation in a complex and ever-changing legal landscape. As a legal
+professional with over 15 years of experience, Ahu has a deep understanding of the
+challenges faced by clients seeking to protect their intellectual property rights. Whether
+working with entrepreneurs, start-ups, or established corporations, Ahu is committed to
+providing effective and efficient legal solutions, tailored to meet the unique needs of each
+client.</p>
             </div>
 			 
-             <div class="row">
-             <div id="owl-example" class="owl-carousel"> 
-                <div class="text-center item">
-                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <article>
-                            <header class="entry-header">
-                                <div class="entry-thumbnail">
-                                    <img src="images/blog1.jpg" alt="">
-                                   
-                                </div>
-                                <div class="entry-date">25 November 2014</div>
-                                <h2 class="entry-title"><a href="#">Lorem ipsum dolor sit amet</a></h2>
-                            </header>
+              <h3 class="section-title text-center wow fadeInDown">Education</h3>
+                    <p class="text-center wow fadeInDown"> 
+                        <table>
+     
+        <tbody>
+            <tr>
+                <td data-label="Header 1">Washington University School of Law St. Louis, Missouri, USA - Master of Laws(LL.M), Intellectual Property &amp; Technology Law </td>
+                <td data-label="Header 2">May 2007</td>
+        
+            </tr>
+            <tr>
+                <td data-label="Header 1">Cag University Faculty of Law Mersin, Turkey - Master of Laws in Criminal Law</td>
+                <td data-label="Header 2">taken all the courses but thesis not completed</td>
+            
+            </tr>
+            <tr>
+                <td data-label="Header 1">Cag University Faculty of Law Mersin, Turkey - Bachelor of Laws (LL.B) </td>
+                <td data-label="Header 2">June, 2004</td>
+              
+            </tr>
+           
+        </tbody>
+    </table>
 
-                            <div class="entry-content">
-                                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
-                                <a class="btn btn-primary" href="#"> Read More </a>
-                            </div>
+            </div>
+     
+                          <h3 class="section-title text-center wow fadeInDown">Awards Received</h3>
+                    <p class="text-center wow fadeInDown"> 
+                        <table>
+     
+        <tbody>
+            <tr>
+                <td data-label="Header 1">World Trademark Review- Named as Top Tier Trademark Professionals in Turkey </td>
+                <td data-label="Header 2"> for the years
+2015, 2016, 2017, 2018 and 2019 </td>
+        
+            </tr>
+            <tr>
+                <td data-label="Header 1">Fulbright Scholarship </td>
+                <td data-label="Header 2">2006-2007 </td>
+            
+            </tr>
+            <tr>
+                <td data-label="Header 1">Valedictorian(Highest Ranked), Cag University Faculty of Law, </td>
+                <td data-label="Header 2">2004 (GPA 3.42/4) </td>
+              
+            </tr>
+           
+        </tbody>
+    </table>
 
-                            
-                        </article>
-                    </div>
-                </div>
-                
-                <div class="text-center item">
-                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <article>
-                            <header class="entry-header">
-                                <div class="entry-thumbnail">
-                                    <img  src="images/blog3.jpg" alt="">
-                                   
-                                </div>
-                                <div class="entry-date">25 November 2014</div>
-                                <h2 class="entry-title"><a href="#">Lorem ipsum dolor sit amet</a></h2>
-                            </header>
-
-                            <div class="entry-content">
-                                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
-                                <a class="btn btn-primary" href="#">Kalsin mi?</a>
-                            </div>
-
-                            
-                        </article>
-                    </div>
-                </div>
-                
-                <div class="text-center item">
-                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <article>
-                            <header class="entry-header">
-                                <div class="entry-thumbnail">
-                                    <img src="images/blog1.jpg" alt="">
-                                   
-                                </div>
-                                <div class="entry-date">25 November 2014</div>
-                                <h2 class="entry-title"><a href="#">Lorem ipsum dolor sit amet</a></h2>
-                            </header>
-
-                            <div class="entry-content">
-                                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
-                                <a class="btn btn-primary" href="#">Ablos?</a>
-                            </div>
-
-                            
-                        </article>
-                    </div>
-                </div>
-                <div class="text-center item">
-                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <article>
-                            <header class="entry-header">
-                                <div class="entry-thumbnail">
-                                    <img src="images/blog2.jpg" alt="">
-                                   
-                                </div>
-                                <div class="entry-date">25 November 2014</div>
-                                <h2 class="entry-title"><a href="#">Lorem ipsum dolor sit amet</a></h2>
-                            </header>
-
-                            <div class="entry-content">
-                                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
-                                <a class="btn btn-primary" href="#">Mobile1</a>
-                            </div>
-
-                            
-                        </article>
-                    </div>
-                </div>
-                <div class="text-center item">
-                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <article>
-                            <header class="entry-header">
-                                <div class="entry-thumbnail">
-                                    <img  src="images/blog3.jpg" alt="">
-                                   
-                                </div>
-                                <div class="entry-date">25 November 2014</div>
-                                <h2 class="entry-title"><a href="#">Lorem ipsum dolor sit amet</a></h2>
-                            </header>
-
-                            <div class="entry-content">
-                                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
-                                <a class="btn btn-primary" href="#">Mobile2</a>
-                            </div>
-
-                            
-                        </article>
-                    </div>
-                </div>
-                
-                <div class="text-center item">
-                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <article>
-                            <header class="entry-header">
-                                <div class="entry-thumbnail">
-                                    <img src="images/blog1.jpg" alt="">
-                                   
-                                </div>
-                                <div class="entry-date">25 November 2014</div>
-                                <h2 class="entry-title"><a href="#">Lorem ipsum dolor sit amet</a></h2>
-                            </header>
-
-                            <div class="entry-content">
-                                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</P>
-                                <a class="btn btn-primary" href="#">Mobile3</a>
-                            </div>
-
-                            
-                        </article>
-                    </div>
-                </div>
+            </div>
+  
                <!-- <div class="text-center item">
                     <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
                         <article>
@@ -378,7 +457,7 @@ ing elit, sed do eiusmod .</p>
     
     <!--/#blog-->
     
-    
+    <!--/#services
 
     <section id="get-in-touch">
         <div class="container">
@@ -391,7 +470,7 @@ ing elit, sed do eiusmod .</p>
             </div>
 
             </div>
-
+-->
           <!--  buradan 
             <div class="row">
             <div class="col-sm-6">
@@ -470,7 +549,7 @@ ing elit, sed do eiusmod .</p>
     <script src="js/main.js"></script>
 	<script src="js/scrolling-nav.js"></script>
 
-<script src="https://form.jotform.com/cardforms/feedbackEmbedButton.min.js"></script> <script> new JF_FeedbackEmbedButton({ buttonText: "Get Feedback", buttonFontColor: "#FFFFFF", buttonBackgroundColor: "#007FEF", buttonSide: "Bottom", buttonAlign: "Right", buttonIcon: "envelope", base: "https://form.jotform.com/", formId: 222784378333362 }); </script>
+
 
 <script>
 
